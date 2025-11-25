@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List with Notifications</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+
+  <body>
+    <h1 class="title">To do list</h1>
+
+    <div id="task-list"></div>
+
+    <div class="form-box">
+      <h2>Add new to do.</h2>
+
+      <label>Task title:</label>
+      <input type="text" id="title" />
+
+      <label>Date & Time:</label>
+      <input type="datetime-local" id="datetime" />
+
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
